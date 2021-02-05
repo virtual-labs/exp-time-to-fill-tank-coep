@@ -89,22 +89,54 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "What are the components of open loop control system?", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Input", ///// Write the option 1 inside double quotes
+                b: "Controller, Process", ///// Write the option 2 inside double quotes
+                c: "Output",
+                d: "All of above",
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "What are the components of closed loop control system?",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
+        a: "Amplifier",                  ///// Write the option 1 inside double quotes
+        b: "Controller, process",                  ///// Write the option 2 inside double quotes
+        c: "All of the above",      
+		d: "Feedback"
+		},
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
+	{
+            question: "Coefficient of discharge is directly proportional to ", ///// Write the question inside double quotes
+            answers: {
+                a: "Discharge", ///// Write the option 1 inside double quotes
+                b: "Area", ///// Write the option 2 inside double quotes
+                c: "Volume",
+                d: "None of the above",
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        },{
+            question: "Coefficient of velocity is inversely proportional to ", ///// Write the question inside double quotes
+            answers: {
+                a: "Height ", ///// Write the option 1 inside double quotes
+                b: "Square root of Height", ///// Write the option 2 inside double quotes
+                c: "Area ",
+                d: "Square root of acceleration due to gravity",
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },{
+            question: "What is the conversion factor to convert cubic meter into litres?", ///// Write the question inside double quotes
+            answers: {
+                a: "10", ///// Write the option 1 inside double quotes
+                b: "100", ///// Write the option 2 inside double quotes
+                c: "1000",
+                d: "10000",
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
 
 
