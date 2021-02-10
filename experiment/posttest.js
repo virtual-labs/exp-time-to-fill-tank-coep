@@ -89,22 +89,35 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "Estimate the time required to fill the tank . Tank configuration is as - Inflow = 1000 lph, Tank radius = 10 m, Tank height = 15 m", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "4710 hrs", ///// Write the option 1 inside double quotes
+                b: "4000 hrs", ///// Write the option 2 inside double quotes
+                c: "5000 hrs",
+                d: "4450 hrs",
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+            question: "Estimate the time required to fill the tank . Tank configuration is as - Inflow = 10000 lph, Tank radius = 20 m, Tank height = 20 m", ///// Write the question inside double quotes
+            answers: {
+                a: "3000 hrs", ///// Write the option 1 inside double quotes
+                b: "2000 hrs", ///// Write the option 2 inside double quotes
+                c: "2512  hrs",
+                d: "2500 hrs",
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },{
+            question: "Estimate the time required to fill the tank . Tank configuration is as - Inflow = 1000 lph, Tank radius = 1 m, Tank height = 1 m", ///// Write the question inside double quotes
+            answers: {
+                a: "3.10 hrs", ///// Write the option 1 inside double quotes
+                b: "2.75 hrs", ///// Write the option 2 inside double quotes
+                c: "4.15  hrs",
+                d: "3.14 hrs",
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        }
 
 
         
