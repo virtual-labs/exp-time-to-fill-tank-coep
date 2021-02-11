@@ -1,4 +1,4 @@
-### Estimate the total actual time required to fill the tank by
+Estimate the total actual time required to fill the tank by
 
 * Select Inflow
 * Tank radius
