@@ -1,0 +1,259 @@
+.form-control.is-invalid, .was-validated .form-control:invalid
+{    background-image: none;}
+.form-control.is-valid, .was-validated .form-control:valid
+{    background-image: none;}
+#main-div {
+	width: 90%;
+/* 	height: 100% */
+	margin: 10px 5%;
+	border: 3px solid #666;
+	/* 		background-color:#ededf1; */
+/* 	background-image: url("../images/bg.jpg"); */
+	font-family: Cambria, Georgia, serif;
+	padding: 20px 1%;
+}
+
+header {
+	border: 1px solid;
+	height: 100px;
+	width: 100%;
+	padding: 0 5%;
+	background: rgb(125,176,169);
+background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+}
+
+
+
+/* header .COEPLogo { */
+/* 	padding: 1px; */
+/* 	border-radius: 68px; */
+/* 	vertical-align: middle; */
+/* 	width: 95px; */
+/* 	height: 95px; */
+/* 	background: #fff; */
+/* 	float: left; */
+/* 	margin-right: 30px; */
+/* } */
+
+footer {
+	border: 1px solid #666;
+	height: 30px;
+	width: 100%;
+	background: #2f7875;
+	bottom: 0px;
+}
+
+header img {
+	padding: 1px;
+	border-radius: 68px;
+	vertical-align: middle;
+	width: 95px;
+	height: 95px;
+	background: #fff;
+	float: left;
+	margin-right: 30px;
+}
+
+header h1 {
+	font-family: Cambria, Georgia, serif;
+	color: #fff;
+	font-size: 25px;
+	margin: 20px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+header #appName {
+	font-family: Cambria, Georgia, serif;
+	color: #fff;
+	font-size: 16px;
+	margin: 10px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+header h2 {
+	font-family: Cambria, Georgia, serif;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+#LCSConfigDiv h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(33,44,62,1);
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+    text-align: center;
+}
+#TCSConfigDiv  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+    text-align: center;
+}
+ #PCSConfigDiv  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+    text-align: center;
+}
+#FCSConfigDiv h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+    text-align: center;
+}
+#TestDiv h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+    text-align: center;
+}
+.slidecontainer {
+    border-radius: 10px;
+    border: 2px solid #666;
+    padding: 10px;
+  
+}
+.slidecontainer .header {
+    background: #666;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: left;
+    margin: 11px 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#LCSConfigNext, #FCSConfigNext, #PCSConfigNext, #TCSConfigNext {
+    padding: 6px 10px;
+    background-color: #666;
+    color: #fff;
+    margin: 5px 10px 0 0;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#LCSConfigSubmit{
+    padding: 6px 10px;
+    background-color: rgba(33,44,62,1);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#LCS_FullTankTF, #LCSConfigEdit {
+	width:100%;
+    padding: 6px 10px;
+    background-color: rgba(33,44,62,1);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.fa-exclamation-triangle {
+	color: yellow;
+	background: #000;
+	padding: 5px;
+	margin: 5px;
+	font-size: 19px;
+	border-radius: 6px;
+}
+#LCSTankConfigSubmit, #LCSmaintainSpLvlDivSubmit, #LCSemptyTannkDivSubmit, #LCS_emptyTankTF, #LCS_EmptyConfigEdit {
+    padding: 6px 10px;
+    background-color: rgba(33,44,62,1);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#FTNotifyAlert, #ETNotifyAlert {font-weight: bold;
+    margin-top: 9px;
+    text-align: center;}
+.ErrerMsg{       background: #f9ccc3;
+    color: red;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;}
+#LCSTakeAction {
+   position: absolute;
+    left: 102px;
+    margin-top: -78px;
+    padding: 6px 10px;
+    background-color: #666;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+@media screen and (max-width:2000px) {
+	#main-div {
+		width: 100%;
+/* 		height: auto; */
+		margin: 10px 0%;
+		border: 3px solid #666;
+	}
+}
+
+@media screen and (min-width: 100px) and (max-width: 468px) {
+	#main-div {
+		width: 100%;
+		height: auto;
+		margin: 10px 0%;
+		border: 3px solid #666;
+	}
+	header img {
+		width: 101px;
+	}
+	header h1 {
+		font-size: 20px;
+		margin-top: 12px;
+	}
+	header h2 {
+		font-size: 19px;
+	}
+}
+
+@media screen and (min-width: 469px) and (max-width: 768px) {
+	#main-div {
+		width: 100%;
+		height: auto;
+		margin: 10px 0%;
+		border: 3px solid #666;
+	}
+	header img {
+		width: 101px;
+	}
+	header h1 {
+		font-size: 20px;
+		margin: 25px;
+	}
+	header h2 {
+		font-size: 19px;
+	}
+}
+
+/*question css end*/
